@@ -10,7 +10,7 @@ yum update -y
 # Apache install and index.html file creation
 
 yum install httpd -y
-echo 'Hello i am shubham' >> /var/www/html/index.html
+echo 'Hello' >> /var/www/html/index.html
 systemctl restart httpd
 
 ## Code Deploy Agent Bootstrap Script##
